@@ -1,0 +1,61 @@
+.navbar > .container {
+  justify-content: center;
+}
+
+body {
+  background-color: #f2fff8;
+}
+
+.card img {
+  width: 4rem;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+}
+
+.card-body {
+  text-align: left;
+}
+
+.main-img {
+  width: 20rem;
+}
+
+.accordion-button {
+  border: none;
+}
+
+.price-advertisement-container {
+  background: linear-gradient(to right, #2e3192, #1bffff);
+}
+
+.form-control:focus {
+  outline: none; /* Remove the default outline style */
+  box-shadow: none; /* Remove any default box shadow */
+}
+
+.accordion-item {
+  border: none;
+  background-color: #f2fff8;
+  outline: none; /* Remove the default outline style */
+  box-shadow: none; /* Remove any default box shadow */
+}
+.accordion-button {
+  background-color: #f2fff8;
+  font-size: 1.5rem;
+}
+
+.accordion-button:focus,
+.accordion-button:hover,
+.accordion-button:not(.collapsed) {
+  border-color: none;
+  box-shadow: none;
+  background-color: #f2fff8;
+}
+
+.card {
+  border: none;
+  background-color: #f2fff8;
+}
+
+.container-lg {
+  max-width: 1500px;
+}
